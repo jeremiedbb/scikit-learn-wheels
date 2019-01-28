@@ -104,6 +104,7 @@ matrix:
         - NP_TEST_DEP=numpy==1.14.5
 
 before_install:
+    - gcc --version
     - BUILD_DEPENDS="$NP_BUILD_DEP cython==0.28.4 $SCIPY_BUILD_DEP"
     - TEST_DEPENDS="$NP_TEST_DEP pytest $SCIPY_TEST_DEP"
     - source multibuild/common_utils.sh
