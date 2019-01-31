@@ -1,7 +1,7 @@
 env:
   global:
       - REPO_DIR="scikit-learn"
-      - BUILD_COMMIT=9ab4316fc9fed20563ad58b98c96807ec47b4d7e
+      - BUILD_COMMIT=a0043ce48d7f0cd69dc8893a04a3871dcc507c69
       - PLAT=x86_64
       - UNICODE_WIDTH=32
       - NP_BUILD_DEP="numpy==1.11.3"
