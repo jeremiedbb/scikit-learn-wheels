@@ -1,6 +1,6 @@
 [submodule "scikit-learn"]
 	path = scikit-learn
-	url = https://github.com/jeremiedbb/scikit-learn/tree/kmeans-wheels
+	url = git@github.com:jeremiedbb/scikit-learn.git
 [submodule "multibuild"]
 	path = multibuild
 	url = https://github.com/matthew-brett/multibuild.git
